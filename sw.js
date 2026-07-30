@@ -1,4 +1,4 @@
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE_NAME = `jc-${VERSION}`;
 
 
@@ -24,7 +24,8 @@ self.addEventListener("activate", (event) => {
     (async () => {
       const names = await caches.keys();
       await Promise.all(
-        names.map((name) => {
+          names.map((name) => {
+	      console.log(`name is ${name}`);
           if (name !== CACHE_NAME) {
             return caches.delete(name);
           }
