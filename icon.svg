@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="83.311043mm"
+   height="59.938816mm"
+   viewBox="0 0 83.311042 59.938818"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="1.0742188"
+     inkscape:cx="115.43272"
+     inkscape:cy="207.59272"
+     inkscape:window-width="1290"
+     inkscape:window-height="761"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.148168,-13.043543)">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.565;stroke-dasharray:none"
+       id="rect6"
+       width="63.053574"
+       height="10.837333"
+       x="58.614948"
+       y="-17.931803"
+       inkscape:transform-center-x="-5.4114432"
+       inkscape:transform-center-y="-1.9282485"
+       transform="rotate(39.423831)" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.45499;stroke-dasharray:none"
+       id="rect1"
+       width="81.856049"
+       height="7.2527957"
+       x="37.875664"
+       y="13.771039" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.565;stroke-dasharray:none"
+       id="rect2"
+       width="32.758305"
+       height="21.428364"
+       x="37.930668"
+       y="50.771496" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.41798;stroke-dasharray:none"
+       id="rect3"
+       width="12.695608"
+       height="21.575384"
+       x="107.05461"
+       y="50.697987" />
+  </g>
+</svg>

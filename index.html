@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="سليم ابن افنان" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="icon.svg" />
+    <title>جبر الخزائن والابواب</title>
+    <style>
+      body{
+	  display:block;
+	  margin:2em;
+      }
+      main{
+	  max-width:80rem;
+      }
+     #form{
+	 padding-top: 1em;
+	 display: grid;
+	 
+     }
+    </style>
+
+  </head>
+  <body>
+      ادعوا الى اهلنا في غزة والصومال والايغور والضفة ولبنان وسوريا ومصر. اللهم فرج عنهم كربتهم
+      <form method="POST" id="form" action="">
+	  
+	  <label for="interance-w">عرض الممر</label>
+	  <input type="number" name="interance-w" value="" id="interance-w" />
+	  <label for="door-th">سمك الحائط</label>
+	  <input type="number" name="door-th" value="" id="door-th" />
+	  <label for="door-w">عرض الباب</label>
+	  <input type="number" name="door-w" value="" id="door-w" />
+	  <br/>
+	  <label for="furniture-h">طول الخزانة</label>
+	  <input type="number" name="furniture-h" value="" id="furniture-h" />
+	  <label for="furniture-w">عرض الخزانة</label>
+	  <input type="number" name="furniture-w" value="" id="furniture-w" />
+	  <label for="furniture-d">سمك الخزانة</label>
+	  <input type="number" name="furniture-d" value="" id="furniture-d" />
+      </form>
+      <hr>
+      <div>
+	  هل تعبر اذا وضعت منتصبه اي بدون تقليب: 
+	  <span id="res-straight"></span>
+      </div>
+      <div>
+	  هل تعبر اذا وضعت عل جنبها:
+	  <span id="res-side"></span>
+      </div>
+      <div>
+	  هل تعبر اذا وضعت على ظهرها:
+	  <span id="res-back"></span>
+      </div>
+      <script src="app.js" defer type="text/javascript"></script>
+      <script type="text/javascript">
+	if ("serviceWorker" in navigator) {
+	    // support service worker
+	    navigator.serviceWorker.register("sw.js").then(
+		(registration) => {
+		    console.log("Service worker registration successful:", registration);
+		},
+		(error) => {
+		    console.error(`Service worker registration failed: ${error}`);
+		},
+	    );
+	} else {
+	    console.error("Service workers are not supported.");
+	}
+
+      </script>
+  </body>
+</html>

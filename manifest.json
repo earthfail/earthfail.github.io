@@ -1,0 +1,15 @@
+{
+    "name": "جبر اطول الاثاث والممرات",
+    "short_name": "جبر النجارة",
+    "description": "فحص اذا ما كانت قطعة اثاث تمر من زواية",
+    "start_url": "index.html",
+    "icons": [
+	{
+	    "src": "icon.svg",
+	    "sizes": "any"
+	}
+    ],
+    "theme_color": "#eeffee",
+    "display": "standalone",
+    "orientation": "portrait"
+}
