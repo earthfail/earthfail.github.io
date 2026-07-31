@@ -22,11 +22,16 @@
 	 display: grid;
 	 
      }
+     /* #result-summary{ */
+     /* 	 display: flex; */
+     /* 	 flex-direction: column; */
+     /* } */
     </style>
 
   </head>
   <body>
-      ادعوا الى اهلنا في غزة والصومال والايغور والضفة ولبنان وسوريا ومصر. اللهم فرج عنهم كربتهم
+    ادعوا الى اهلنا في غزة والصومال والايغور والضفة ولبنان وسوريا ومصر. اللهم فرج عنهم كربتهم
+
       <form method="POST" id="form" action="">
 	  
 	  <label for="interance-w">عرض الممر</label>
@@ -44,19 +49,23 @@
 	  <input type="number" name="furniture-d" value="" id="furniture-d" />
       </form>
       <hr>
+      <div id="result-summary">
       <div>
-	  هل تعبر اذا وضعت منتصبه اي بدون تقليب: 
+	  هل ستعبر اذا وضعت منتصبه اي بدون تقليب:
 	  <span id="res-straight"></span>
       </div>
       <div>
-	  هل تعبر اذا وضعت عل جنبها:
+	  هل ستعبر اذا وضعت عل جنبها:
 	  <span id="res-side"></span>
       </div>
       <div>
-	  هل تعبر اذا وضعت على ظهرها:
+	  هل ستعبر اذا وضعت على ظهرها:
 	  <span id="res-back"></span>
       </div>
-      <script src="app.js" defer type="text/javascript"></script>
+      <img src="./desc.png" style="width: stretch;" />
+      </div>
+      
+      <script src="./app.js" defer></script>
       <script type="text/javascript">
 	if ("serviceWorker" in navigator) {
 	    // support service worker

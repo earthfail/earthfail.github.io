@@ -14,7 +14,7 @@ const elements = [inter_w_ele, door_th_ele, door_w_ele, furniture_h_ele, furnitu
 elements.forEach((v) => {
     v.addEventListener("input", (e) => {
 	e.preventDefault();
-	console.log(v.name);
+	// console.log(v.name);
 	compute_constraint();
 	
     });
@@ -42,8 +42,10 @@ function compute_constraint() {
 	let b = Math.max(furniture_h,furniture_w);
 	if (satisfyConstraint(inter_w,door_w,door_th,a,b)) {
 	    res_back_ele.innerHTML = "اجل";
+	    res_back_ele.style.color = "green";
 	} else {
 	    res_back_ele.innerHTML = "كلا";
+	    res_back_ele.style.color = "red";
 	}
 
     }
@@ -53,8 +55,10 @@ function compute_constraint() {
 	let b = Math.max(furniture_h,furniture_d);
 	if (satisfyConstraint(inter_w,door_w,door_th,a,b)) {
 	    res_side_ele.innerHTML = "اجل";
+	    res_side_ele.style.color = "green";
 	} else {
 	    res_side_ele.innerHTML = "كلا";
+	    res_side_ele.style.color = "red";
 	}
     }
     if (!isNaN(furniture_w) && !isNaN(furniture_d)) {
@@ -63,10 +67,11 @@ function compute_constraint() {
 	let b = Math.max(furniture_w,furniture_d);
 	if (satisfyConstraint(inter_w,door_w,door_th,a,b)) {
 	    res_straight_ele.innerHTML = "اجل";
+	    res_straight_ele.style.color = "green";
 	} else {
 	    res_straight_ele.innerHTML = "كلا";
+	    res_straight_ele.style.color = "red";
 	}
-
     }
 }
 function satisfyConstraint(inter_w,door_w,door_th,a,b) {
